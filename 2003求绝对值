@@ -1,0 +1,15 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+    double num,absnum;
+    while(cin>>num)
+    {
+        absnum=abs(num);
+        cout.precision(2);
+        cout<<fixed<<setprecision(2)<<absnum<<endl;
+    }
+    return 0;
+}
